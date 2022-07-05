@@ -1,35 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-
+    <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <title>Audio</title>
   </head>
   <body>
-    <img src="food2.jpeg" height="100" width="100" alt="">
-    <h1>Ernie's Site</h1>
-    <p><em>Author</em></p>
-    <p>Hobbiest and Student</p>
-    <hr>
-    <p>Here I am!</p>
-<h5>
-<ul>
-  <li>Title 1</li>
-  <li>Title 2</li>
-  <li>Title 3</li>
-</ul>
-</h5>
+Play sound <br>
+How to change the computer face size to a mobile phone face size? It may be possible to change the size, if one opens the right browser.
+</br>
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
 
-<ol>
-  <li>Horses</li>
-  <li>cows</li>
-  <li>pigs</li>
-</ol>
+    <input type="button" value="PLAY" onclick="play()">
+    <audio id="audio" src="horse.mp3"></audio>
 
-<a href="page2.html">Next page 2</a>
-<br>
-<a href="page3.html">Next page 3</a>
-<br>
-<a href="contactForm.html">Contact Me</a>    
   </body>
 </html>
